@@ -1,10 +1,12 @@
+'use client'
 import Image from "next/image";
+import Navbar from "./components/Navbar";
 import './globals.css'
 
 export default function Home() {
   return (
-    <div className="bg-red-200 ">
-      hi there
-    </div>
-  );
+    <>
+    <Navbar/>
+    </>
+      );
 }
