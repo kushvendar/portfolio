@@ -9,7 +9,7 @@ function Contact() {
 
   const [result, setResult] = useState("");
 
-  const onSubmit = async (event:any) => {
+  const handleSubmit = async (event:any) => {
     event.preventDefault();
     setResult("Sending....");
     const formData = new FormData(event.target);
@@ -39,7 +39,7 @@ function Contact() {
       <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>I'd love to hear from you! if you have any questions, comment, feedback please use the form below.
       </p>
 
-      <form onSubmit={onsubmit} className='max-w-2xl mx-auto'>
+      <form onSubmit={handleSubmit} className='max-w-2xl mx-auto'>
         <div className='grid grid-cols-2 gap-6 mt-10 mb-8 '>
         <input type="text"  placeholder='Enter your name' required className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white' name='name'/>
         <input type="email" placeholder='Enter your email' required  className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white' name='email' />
