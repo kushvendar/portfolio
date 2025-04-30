@@ -6,6 +6,7 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
+import postgres from './postgres.png'
 import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
@@ -35,6 +36,7 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import prisma from './prisma.png'
 
 export const assets = {
     user_image,
@@ -45,10 +47,12 @@ export const assets = {
     project_icon,
     project_icon_dark,
     vscode,
+    postgres,
     firebase,
     figma,
     git,
     mongodb,
+    prisma,
     right_arrow_white,
     logo,
     logo_dark,
@@ -107,11 +111,12 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 
+        'JavaScript, TyepScript, TailwindCSS, React Js, Next Js' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Information Technology CGPA:8.99' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built multiple projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.mongodb, assets.figma, assets.git, assets.postgres, assets.prisma
 ];

@@ -13,10 +13,10 @@ const About = () => {
 
       <motion.div initial={{opacity:0 }} whileInView={{opacity:1}} transition={{duration:0.8}} className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
           <motion.div initial={{scale:0.9, opacity:0 }} whileInView={{scale:1, opacity:1}} transition={{duration:0.5, delay:0.6}} className='w-64 sm:w-80 rounded-3xl max-w-none'>
-            <Image src={assets.user_image} alt='' className='w-full rounded-3xl'/>
+            <Image src={assets.profile_img} alt='' className='w-full rounded-3xl'/>
           </motion.div>
           <motion.div initial={{opacity:0 }} whileInView={{opacity:1}} transition={{duration:0.6, delay:0.6}} className='flex-1'>
-            <p className='a'>I am a experienced Full-stack developer with over a decaded of professional expertise in the field. Throughout my carrer, I had the privilege of collabrating with prestigious organisations, contributing to their suceess and growth.</p>
+            <p className='a'>I am a experienced Front end developer with over a year of professional expertise in the field. Throughout my carrer, I had the privilege of collabrating with prestigious organisations, contributing to their suceess and growth.</p>
 
             <motion.ul initial={{opacity:0 }} whileInView={{opacity:1}} transition={{duration:0.8, delay:1}} className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl '>
               {infoList.map(({icon, iconDark, title,description},index)=>(
