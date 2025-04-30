@@ -6,7 +6,7 @@ import {motion} from 'motion/react'
 
 const About = () => {
   return (
-    <motion.div initial={{opacity:0 }} whileInView={{opacity:1}} transition={{duration:1}}   id='about' className='w-full px-[12%] py-10 scroll-mt-20'>
+    <motion.div initial={{opacity:0 }} whileInView={{opacity:1}} transition={{duration:0.1}}   id='about' className='w-full px-[12%] py-10 scroll-mt-20'>
 
       <motion.h4 initial={{y:-20, opacity:0 }} whileInView={{y:0, opacity:1}} transition={{duration:0.5, delay:0.3}} className='text-center mb-2 font-Ovo'>Introduction</motion.h4>
       <motion.h2 initial={{y:-20,opacity:0 }} whileInView={{y:0, opacity:1}} transition={{duration:0.5, delay:0.3}} className='text-center text-5xl font-Ovo'>About me</motion.h2>
