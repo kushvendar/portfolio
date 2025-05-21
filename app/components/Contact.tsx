@@ -4,8 +4,6 @@ import { assets } from '@/assets/assets'
 import { useState } from 'react';
 import {motion} from 'motion/react'
 
-// 1:53:19
-// 2:05;46
 function Contact() {
 
   const [result, setResult] = useState("");
