@@ -35,7 +35,7 @@ function Contact() {
       <motion.h4 initial={{y:-20, opacity:0}} whileInView={{y:0, opacity:1}} transition={{delay:0.2, duration:0.2}} className='text-center text-lg mb-2 font-Ovo'>Connect with me</motion.h4 >
       <motion.h2 initial={{y:-20, opacity:0}} whileInView={{y:0, opacity:1}} transition={{delay:0.2, duration:0.2}} className='text-center text-5xl font-Ovo'>Get In touch</motion.h2>
 
-      <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:0.2, duration:0.2}} className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>I'd love to hear from you! if you have any questions, comment, feedback please use the form below.
+      <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:0.2, duration:0.2}} className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>I&apos;d love to hear from you! if you have any questions, comment, feedback please use the form below.
       </motion.p>
 
       <motion.form initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:0.2, duration:0.2}} onSubmit={handleSubmit} className='max-w-2xl mx-auto'>
