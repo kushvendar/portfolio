@@ -19,7 +19,7 @@ const About = () => {
             <p className='a'>I am a experienced Front end developer with over a year of professional expertise in the field. Throughout my carrer, I had the privilege of collabrating with prestigious organisations, contributing to their suceess and growth.</p>
 
             <motion.ul initial={{opacity:0 }} whileInView={{opacity:1}} transition={{duration:0.2, delay:0.2}} className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl '>
-              {infoList.map(({icon, iconDark, title,description},index)=>(
+              {infoList.map(({icon, title, description},index)=>(
                 <motion.li whileHover={{scale:1.05}} key={index} className='border-[0.5px] border-gray-500 rounded-xl cursor-pointer p-6 mt-5 hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-lg'>
                   <Image src={icon} alt={title} className='w-7 mt-3'/>
                   <h3 className='my-4 font-semibold text-gray-700'>{title}</h3>

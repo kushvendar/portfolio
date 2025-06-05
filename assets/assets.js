@@ -37,6 +37,10 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import prisma from './prisma.png'
+import work1 from './public/work-1.png'
+import work2 from './public/work-2.png'
+import work3 from './public/work-3.png'
+import work4 from './public/work-4.png'
 
 export const assets = {
     user_image,
@@ -84,22 +88,22 @@ export const workData = [
     {
         title: 'Frontend project',
         description: 'Web Design',
-        bgImage: '/work-1.png',
+        bgImage: work1,
     },
     {
         title: 'Geo based app',
         description: 'Mobile App',
-        bgImage: '/work-2.png',
+        bgImage: work2,
     },
     {
         title: 'Photography site',
         description: 'Web Design',
-        bgImage: '/work-3.png',
+        bgImage: work3,
     },
     {
         title: 'UI/UX designing',
         description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        bgImage: work4,
     },
 ]
 

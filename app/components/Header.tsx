@@ -2,7 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import { assets } from '@/assets/assets'
 import {motion} from 'motion/react'
-import { string } from 'zod'
 
 const Header = () => {
   return (
@@ -20,7 +19,7 @@ const Header = () => {
             Front End developer based in Delhi.
         </motion.h1>
 
-        <motion.p initial={{opacity:0 }} whileInView={{opacity:1}} transition={{duration:0.1, delay:0.2}}  className='max-w-2xl mx-auto font-Ovo'>I am a frontend developer from Delhi, USA with 1+ years of experience in multiple companies like HvTron, JSI Interior & Zidio.
+        <motion.p initial={{opacity:0 }} whileInView={{opacity:1}} transition={{duration:0.1, delay:0.2}}  className='max-w-2xl mx-auto font-Ovo'>I am a frontend developer from Delhi, India with 1+ years of experience in multiple companies like HvTron, JSI Interior & Zidio.
         </motion.p>
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>

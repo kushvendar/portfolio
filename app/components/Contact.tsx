@@ -8,10 +8,10 @@ function Contact() {
 
   const [result, setResult] = useState("");
 
-  const handleSubmit = async (event:any) => {
+  const handleSubmit = async (event:React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setResult("Sending....");
-    const formData = new FormData(event.target);
+    const formData = new FormData(event.currentTarget);
 
     formData.append("access_key", "f5c815a5-1658-49d3-8144-8de7d4022a6a");
 
@@ -24,7 +24,7 @@ function Contact() {
 
     if (data.success) {
       setResult("Form Submitted Successfully");
-      event.target.reset();
+      (event.target as HTMLFormElement).reset();
     } else {
       console.log("Error", data);
       setResult(data.message);

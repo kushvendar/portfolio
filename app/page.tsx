@@ -1,5 +1,4 @@
 'use client'
-import Image from "next/image";
 import Navbar from "./components/Navbar";
 import './globals.css' 
 import Header from "./components/Header";
@@ -8,7 +7,6 @@ import Services from "./components/Services";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import { useEffect, useState } from "react";
 
 export default function Home() {
 
@@ -17,7 +15,7 @@ export default function Home() {
     <Navbar/>
     <Header/>
     <About/>
-    <Services/>
+    {/* <Services/> */}
     <Work/>
     <Contact/>
     <Footer/>
