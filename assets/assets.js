@@ -85,24 +85,25 @@ export const assets = {
 };
 
 export const workData = [
-    
+
      {
         title: 'Sterling cpa',
         description: 'Display of CPA services (Audit, Tax, Advisory, Compliance)',
         bgImage: work4,
         link:'https://cpr-firm.vercel.app/'
     },
+    
+    {
+        title: 'Task manager',
+        description: 'Developed a web-based application  for organizing tasks efficiently',
+        bgImage: work2,
+        link:'https://gidge.netlify.app/'
+    },
     {
         title: 'Movie flix',
         description: 'Built a responsive movie search platform with live search',
         bgImage: work1,
         link:'https://moviesfilix.netlify.app/'
-    },
-    {
-        title: 'Task manager',
-        description: 'Developed a web-based task management tool for creating, updating, and organizing tasks efficiently',
-        bgImage: work2,
-        link:'https://gidge.netlify.app/'
     },
     {
         title: 'Gemini AI',
@@ -112,7 +113,7 @@ export const workData = [
     },
     {
         title: 'T-shirt site',
-        description: 'E-commerce UI for browsing and filtering T-shirts',
+        description: 'E-commerce UI for browsing and filtering T-shirts size selection',
         bgImage: work4,
         link:'https://tshirrts.netlify.app/'
     },
