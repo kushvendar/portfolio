@@ -85,25 +85,36 @@ export const assets = {
 };
 
 export const workData = [
-    {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: work1,
-    },
-    {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: work2,
-    },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: work3,
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+    
+     {
+        title: 'Sterling cpa',
+        description: 'Display of CPA services (Audit, Tax, Advisory, Compliance)',
         bgImage: work4,
+        link:'https://cpr-firm.vercel.app/'
+    },
+    {
+        title: 'Movie flix',
+        description: 'Built a responsive movie search platform with live search',
+        bgImage: work1,
+        link:'https://moviesfilix.netlify.app/'
+    },
+    {
+        title: 'Task manager',
+        description: 'Developed a web-based task management tool for creating, updating, and organizing tasks efficiently',
+        bgImage: work2,
+        link:'https://gidge.netlify.app/'
+    },
+    {
+        title: 'Gemini AI',
+        description: 'AI-powered prompt UI with chat-like interaction',
+        bgImage: work3,
+        link:'https://ailm.netlify.app/'
+    },
+    {
+        title: 'T-shirt site',
+        description: 'E-commerce UI for browsing and filtering T-shirts',
+        bgImage: work4,
+        link:'https://tshirrts.netlify.app/'
     },
 ]
 

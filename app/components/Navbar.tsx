@@ -53,7 +53,7 @@ const Navbar = () => {
 
             {/* <button><Image src={assets.moon_icon} alt='moon' className='w-6'/></button> */}
 
-            <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-grey-500 rounded-full ml-4'>Contact <Image src={assets.arrow_icon} alt='contact' className='w-3'/></a>
+            <a href="https://www.notion.so/Kushvendar-Jangid-206a3ac3435480ac9d18f7a163cf293c" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-grey-500 rounded-full ml-4'>Contact <Image src={assets.arrow_icon} alt='contact' className='w-3'/></a>
 
             <button className='block md:hidden ml-3' onClick={openMenu}>
                 <Image src={assets.menu_black} alt='' className='w-6'/>
